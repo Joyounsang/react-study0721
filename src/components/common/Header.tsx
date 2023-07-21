@@ -15,7 +15,7 @@ export const Header = () => {
               </a>
             </li>
             <li>
-              <a className="" href="/awards">
+              <a className="" href="/candidate">
                 <span>59회 수상자 · 작품</span>
               </a>
             </li>
