@@ -132,9 +132,10 @@
 				&:hover {
 					border-color: $primary;
 				}
-				&.on {
+				&.active {
 					background: $primary;
 					border-color: $primary;
+					color: #fff;
 				}
 			}
 			a {

@@ -8,11 +8,11 @@ type Props = {
 
 export const TabList = ({ items, children }: PropsWithChildren<Props>) => {
   return (
-    <ul>
+    <div className="button">
       {items.map(({ title, pathname, isDefaultItem }) => {
         return <TabListItem title={title} pathname={pathname} isDefaultItem={isDefaultItem} />;
       })}
       {children}
-    </ul>
+    </div>
   );
 };
