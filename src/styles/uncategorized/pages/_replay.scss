@@ -3,9 +3,12 @@
 	background: url(#{$imgnow}/baeksang/bg-vod.png) $black no-repeat 50% 50%/2540px auto;
 	text-align: center;
 	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src= "#{$imgnow}/baeksang/bg-vod.png", sizingMethod="scale");
+	.box-btn{
+		color: #fff;
+	}
 	.wrap {
 		position: relative;
-		opacity: 0;
+		// opacity: 0;
 		visibility: hidden;
 		top: 30px;
 		position: relative;
@@ -17,7 +20,7 @@
 		margin-top: 62px;
 		a {
 			position: relative;
-			opacity: 0;
+			// opacity: 0;
 			visibility: hidden;
 			top: 30px;
 			color: $white;
